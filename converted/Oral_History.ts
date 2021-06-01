@@ -14,7 +14,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Interview_ID',
     id: 'Interview_ID',
-    helperText: 'interviewid desc',
+    helperText: '<Element 'description' at 0x7fda88a18c20>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -22,7 +22,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Interview_ID}',
+          label: 'Interview_ID',
         },
     FormHelperTextProps: {},
   },
@@ -40,7 +40,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Interview_location',
     id: 'Interview_location',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda88a18180>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -48,7 +48,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Interview_Location__address__city__state_}',
+          label: 'Interview_location',
         },
     FormHelperTextProps: {},
   },
@@ -66,7 +66,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Latitude',
     id: 'Latitude',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda88a18040>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -74,7 +74,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Latitude}',
+          label: 'Latitude',
         },
     FormHelperTextProps: {},
   },
@@ -92,7 +92,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Longitude',
     id: 'Longitude',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda889dc360>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -100,7 +100,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Longitude}',
+          label: 'Longitude',
         },
     FormHelperTextProps: {},
   },
@@ -118,7 +118,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Northing',
     id: 'Northing',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda889dc400>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -126,7 +126,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Northing}',
+          label: 'Northing',
         },
     FormHelperTextProps: {},
   },
@@ -144,7 +144,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Easting',
     id: 'Easting',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda889dc590>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -152,7 +152,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Easting}',
+          label: 'Easting',
         },
     FormHelperTextProps: {},
   },
@@ -170,7 +170,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Accuracy',
     id: 'Accuracy',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda889dc6d0>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -178,7 +178,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Accuracy}',
+          label: 'Accuracy',
         },
     FormHelperTextProps: {},
   },
@@ -196,7 +196,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Time_when_interview_started',
     id: 'Time_when_interview_started',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda889dc860>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -204,7 +204,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Time_when_interview_started}',
+          label: 'Time_when_interview_started',
         },
     FormHelperTextProps: {},
   },
@@ -222,7 +222,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Time_when_interview_ended',
     id: 'Time_when_interview_ended',
-    helperText: 'test',
+    helperText: '<Element 'description' at 0x7fda88a183b0>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -230,7 +230,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Time_when_interview_ended}',
+          label: 'Time_when_interview_ended',
         },
     FormHelperTextProps: {},
   },
@@ -248,7 +248,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Interview_ID',
     id: 'Interview_ID',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda8891f590>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -256,7 +256,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Interview_ID}',
+          label: 'Interview_ID',
         },
     FormHelperTextProps: {},
   },
@@ -274,7 +274,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Interviewee_ID',
     id: 'Interviewee_ID',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda8891f6d0>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -282,7 +282,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Interviewee_ID}',
+          label: 'Interviewee_ID',
         },
     FormHelperTextProps: {},
   },
@@ -300,7 +300,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'First_name_of_interviewee',
     id: 'First_name_of_interviewee',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda8891f860>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -308,7 +308,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{First_name_of_interviewee}',
+          label: 'First_name_of_interviewee',
         },
     FormHelperTextProps: {},
   },
@@ -326,7 +326,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Last_name_of_interviewee',
     id: 'Last_name_of_interviewee',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda8891f9f0>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -334,7 +334,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Last_name_of_interviewee}',
+          label: 'Last_name_of_interviewee',
         },
     FormHelperTextProps: {},
   },
@@ -352,7 +352,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                   fullWidth: true,
                   name: 'Gender',
                   id: 'Gender',
-                  helperText: '{Gender}',
+                  helperText: 'Gender',
                   variant: 'outlined',
                   required: true,
                   select: true,
@@ -380,7 +380,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                                 ],
                               },
                   InputLabelProps: {
-                                      label: '{Gender}',
+                                      label: 'Gender',
                                     },
                   FormHelperTextProps: {children: 'Some helper text'},
                 },
@@ -396,7 +396,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Where_was_your_mother_born_village',
     id: 'Where_was_your_mother_born_village',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda889259f0>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -404,7 +404,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Where_was_your_mother_born__village__}',
+          label: 'Where_was_your_mother_born_village',
         },
     FormHelperTextProps: {},
   },
@@ -422,7 +422,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Where_was_your_father_born_village',
     id: 'Where_was_your_father_born_village',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda889284f0>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -430,7 +430,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Where_was_your_father_born__village__}',
+          label: 'Where_was_your_father_born_village',
         },
     FormHelperTextProps: {},
   },
@@ -448,7 +448,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'When_did_your_mother_migrate_to_Australia',
     id: 'When_did_your_mother_migrate_to_Australia',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda889289a0>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -456,7 +456,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{When_did_your_mother_migrate_to_Australia_}',
+          label: 'When_did_your_mother_migrate_to_Australia',
         },
     FormHelperTextProps: {},
   },
@@ -474,7 +474,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'When_did_your_father_migrate_to_Australia',
     id: 'When_did_your_father_migrate_to_Australia',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda88928e50>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -482,7 +482,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{When_did_your_father_migrate_to_Australia_}',
+          label: 'When_did_your_father_migrate_to_Australia',
         },
     FormHelperTextProps: {},
   },
@@ -500,7 +500,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Where_did_they_live_in_Australia_locality',
     id: 'Where_did_they_live_in_Australia_locality',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda8892c720>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -508,7 +508,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Where_did_they_live_in_Australia__locality__}',
+          label: 'Where_did_they_live_in_Australia_locality',
         },
     FormHelperTextProps: {},
   },
@@ -526,7 +526,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'What_was_your_fathers_occupation',
     id: 'What_was_your_fathers_occupation',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda8892c860>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -534,7 +534,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{What_was_your_father_s_occupation_}',
+          label: 'What_was_your_fathers_occupation',
         },
     FormHelperTextProps: {},
   },
@@ -552,7 +552,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'If_so_what_was_your_mothers_occupation',
     id: 'If_so_what_was_your_mothers_occupation',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda8892cd60>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -560,7 +560,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{If_so__what_was_your_mother_s_occupation_}',
+          label: 'If_so_what_was_your_mothers_occupation',
         },
     FormHelperTextProps: {},
   },
@@ -578,7 +578,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'When_were_you_born',
     id: 'When_were_you_born',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda8892cef0>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -586,7 +586,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{When_were_you_born_}',
+          label: 'When_were_you_born',
         },
     FormHelperTextProps: {},
   },
@@ -604,7 +604,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Where_were_you_born_location',
     id: 'Where_were_you_born_location',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda88930860>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -612,7 +612,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Where_were_you_born__city__town__locality__}',
+          label: 'Where_were_you_born_location',
         },
     FormHelperTextProps: {},
   },
@@ -630,7 +630,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Where_did_you_go_to_school_location',
     id: 'Where_did_you_go_to_school_location',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda88933090>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -638,7 +638,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Where_did_you_go_to_school__city__town__locality__}',
+          label: 'Where_did_you_go_to_school_location',
         },
     FormHelperTextProps: {},
   },
@@ -656,7 +656,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Where_did_you_go_to_university',
     id: 'Where_did_you_go_to_university',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda88933220>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -664,7 +664,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Where_did_you_go_to_university__institution__location__}',
+          label: 'Where_did_you_go_to_university',
         },
     FormHelperTextProps: {},
   },
@@ -682,7 +682,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'What_was_your_first_line_of_work_occupation',
     id: 'What_was_your_first_line_of_work_occupation',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda88933360>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -690,7 +690,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{What_was_your_first_line_of_work___occupation_}',
+          label: 'What_was_your_first_line_of_work_occupation',
         },
     FormHelperTextProps: {},
   },
@@ -708,7 +708,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
     fullWidth: true,
     name: 'Notes',
     id: 'Notes',
-    helperText: 'None',
+    helperText: '<Element 'description' at 0x7fda88933810>',
     variant: 'outlined',
     required: true,
     InputProps: {
@@ -716,7 +716,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
         },
     SelectProps: {},
     InputLabelProps: {
-          label: '{Notes}',
+          label: 'Notes',
         },
     FormHelperTextProps: {},
   },
@@ -734,7 +734,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                   fullWidth: true,
                   name: 'Where_was_your_mother_born_region',
                   id: 'Where_was_your_mother_born_region',
-                  helperText: '{Where_was_your_mother_born__region__}',
+                  helperText: 'Where_was_your_mother_born_region',
                   variant: 'outlined',
                   required: true,
                   select: true,
@@ -802,7 +802,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                                 ],
                               },
                   InputLabelProps: {
-                                      label: '{Where_was_your_mother_born__region__}',
+                                      label: 'Where_was_your_mother_born_region',
                                     },
                   FormHelperTextProps: {children: 'Some helper text'},
                 },
@@ -818,7 +818,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                   fullWidth: true,
                   name: 'Where_was_your_father_born_region',
                   id: 'Where_was_your_father_born_region',
-                  helperText: '{Where_was_your_father_born__region__}',
+                  helperText: 'Where_was_your_father_born_region',
                   variant: 'outlined',
                   required: true,
                   select: true,
@@ -886,7 +886,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                                 ],
                               },
                   InputLabelProps: {
-                                      label: '{Where_was_your_father_born__region__}',
+                                      label: 'Where_was_your_father_born_region',
                                     },
                   FormHelperTextProps: {children: 'Some helper text'},
                 },
@@ -902,7 +902,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                   fullWidth: true,
                   name: 'Did_your_mother_migrate_to_Australia',
                   id: 'Did_your_mother_migrate_to_Australia',
-                  helperText: '{Did_your_mother_migrate_to_Austraila_}',
+                  helperText: 'Did_your_mother_migrate_to_Australia',
                   variant: 'outlined',
                   required: true,
                   select: true,
@@ -930,7 +930,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                                 ],
                               },
                   InputLabelProps: {
-                                      label: '{Did_your_mother_migrate_to_Austraila_}',
+                                      label: 'Did_your_mother_migrate_to_Australia',
                                     },
                   FormHelperTextProps: {children: 'Some helper text'},
                 },
@@ -946,7 +946,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                   fullWidth: true,
                   name: 'Did_your_father_migrate_to_Australia',
                   id: 'Did_your_father_migrate_to_Australia',
-                  helperText: '{Did_your_father_migrate_to_Austraila_}',
+                  helperText: 'Did_your_father_migrate_to_Australia',
                   variant: 'outlined',
                   required: true,
                   select: true,
@@ -974,7 +974,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                                 ],
                               },
                   InputLabelProps: {
-                                      label: '{Did_your_father_migrate_to_Austraila_}',
+                                      label: 'Did_your_father_migrate_to_Australia',
                                     },
                   FormHelperTextProps: {children: 'Some helper text'},
                 },
@@ -990,7 +990,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                   fullWidth: true,
                   name: 'Where_did_they_live_in_Australia_state',
                   id: 'Where_did_they_live_in_Australia_state',
-                  helperText: '{Where_did_they_live_in_Australia__state__}',
+                  helperText: 'Where_did_they_live_in_Australia_state',
                   variant: 'outlined',
                   required: true,
                   select: true,
@@ -1048,7 +1048,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                                 ],
                               },
                   InputLabelProps: {
-                                      label: '{Where_did_they_live_in_Australia__state__}',
+                                      label: 'Where_did_they_live_in_Australia_state',
                                     },
                   FormHelperTextProps: {children: 'Some helper text'},
                 },
@@ -1064,7 +1064,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                   fullWidth: true,
                   name: 'Did_your_mother_work',
                   id: 'Did_your_mother_work',
-                  helperText: '{Did_your_mother_work_}',
+                  helperText: 'Did_your_mother_work',
                   variant: 'outlined',
                   required: true,
                   select: true,
@@ -1092,7 +1092,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                                 ],
                               },
                   InputLabelProps: {
-                                      label: '{Did_your_mother_work_}',
+                                      label: 'Did_your_mother_work',
                                     },
                   FormHelperTextProps: {children: 'Some helper text'},
                 },
@@ -1108,7 +1108,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                   fullWidth: true,
                   name: 'Where_were_you_born_state',
                   id: 'Where_were_you_born_state',
-                  helperText: '{Where_were_you_born__state__}',
+                  helperText: 'Where_were_you_born_state',
                   variant: 'outlined',
                   required: true,
                   select: true,
@@ -1166,7 +1166,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                                 ],
                               },
                   InputLabelProps: {
-                                      label: '{Where_were_you_born__state__}',
+                                      label: 'Where_were_you_born_state',
                                     },
                   FormHelperTextProps: {children: 'Some helper text'},
                 },
@@ -1182,7 +1182,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                   fullWidth: true,
                   name: 'Where_did_you_go_to_school_state',
                   id: 'Where_did_you_go_to_school_state',
-                  helperText: '{Where_did_you_go_to_school__state__}',
+                  helperText: 'Where_did_you_go_to_school_state',
                   variant: 'outlined',
                   required: true,
                   select: true,
@@ -1235,7 +1235,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                                 ],
                               },
                   InputLabelProps: {
-                                      label: '{Where_did_you_go_to_school__state__}',
+                                      label: 'Where_did_you_go_to_school_state',
                                     },
                   FormHelperTextProps: {children: 'Some helper text'},
                 },
@@ -1251,7 +1251,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                   fullWidth: true,
                   name: 'Do_you_recall_many_incidents_of_xenophobia_or_bigotry',
                   id: 'Do_you_recall_many_incidents_of_xenophobia_or_bigotry',
-                  helperText: '{Do_you_recall_many_incidents_of_xenophobia_or_bigotry_}',
+                  helperText: 'Do_you_recall_many_incidents_of_xenophobia_or_bigotry',
                   variant: 'outlined',
                   required: true,
                   select: true,
@@ -1279,7 +1279,7 @@ const example_ui_specs: {[key: string]: ProjectUIModel} = {
                                 ],
                               },
                   InputLabelProps: {
-                                      label: '{Do_you_recall_many_incidents_of_xenophobia_or_bigotry_}',
+                                      label: 'Do_you_recall_many_incidents_of_xenophobia_or_bigotry',
                                     },
                   FormHelperTextProps: {children: 'Some helper text'},
                 },

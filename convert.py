@@ -128,18 +128,23 @@ def get_archents(data_schema):
         elif element.tag == "property":
           element_name = element.attrib['name']
           archents[archent]['properties'][element_name] = {'name':element_name,
-                                                           'type':element.attrib['type'],
+                                                           'type':element.attrib.get("type"),
                                                            'isIdentifier':element.attrib.get('isIdentifier', False),
                                                            }
-          archents[archent]['properties'][element_name]['description'] = element.find('description').text
+          aent_desc =  element.find('description')
+          if aent_desc:
+            aent_desc = aent_desc.text
+          archents[archent]['properties'][element_name]['description'] = aent_desc
           archents[archent]['properties'][element_name]['formatString'] = element.find('formatString').text
           archents[archent]['properties'][element_name]['appendCharacterString'] = element.find('appendCharacterString').text if element.find('appendCharacterString') is not None else None
           if lookup := element.find("lookup"):
             archents[archent]['properties'][element_name]['vocab'] = []
             for vocab in lookup:
-              
+              desc = vocab.find("description")
+              if desc:
+                desc = desc.text.strip()
               archents[archent]['properties'][element_name]['vocab'].append({'term':vocab.text.strip(), 
-                                                                             'desc':vocab.find("description").text.strip(),
+                                                                             'desc': desc,
                                                                              'pictureURL':vocab.get("pictureUrl", None)
                                                                              })
   #pprint(archents, indent=1, compact=True, width=200)
@@ -178,12 +183,17 @@ def get_ui_layout(ui_schema, archent_data):
           database_entry_name = field.get("faims_attribute_name")
           field_path = f"{ref}/{tabref}/{field_ref}" # Need to deal with binding elements... later
           #print(aent_link, database_entry_name)
+          display_name = field.find('./x:label', ns)
+          if display_name:
+            display_name = display_name.text.strip(),
+          else:
+            display_name = field_ref
           tabgroups[ref]['tabs'][tabref]['fields'][field_ref] = {'element_name':field_ref,
-                                                      'display_name':field.find('./x:label', ns).text.strip(),
+                                                      'display_name':display_name,
                                                       'attribute_name':database_entry_name,
                                                       'attribute_type':field.get("faims_attribute_type"),
                                                       'database_entry':archent_data[aent_link]['properties'].get(database_entry_name)}
-  tsprint(tabgroups, indent=1, compact=True, width=200)
+  # tsprint(tabgroups, indent=1, compact=True, width=200)
   return tabgroups
 
 
