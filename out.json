@@ -1,0 +1,1628 @@
+Directory of FAIMS2 Module [../oral-history-doumanis/module/]: Name this project should be called [Oral History]: {'Interview': {'data_schema': 'Interview',
+               'display_name': '{Interview}',
+               'tabs': OrderedDict([('Admin',
+                                     {'display_name': '{Admin}',
+                                      'fields': OrderedDict([('Interview_ID',
+                                                              {'attribute_name': 'Interview '
+                                                                                 'ID',
+                                                               'attribute_type': 'measure',
+                                                               'database_entry': {'appendCharacterString': ' '
+                                                                                                           '- ',
+                                                                                  'description': None,
+                                                                                  'formatString': 'Interview '
+                                                                                                  '$2',
+                                                                                  'isIdentifier': 'true',
+                                                                                  'name': 'Interview '
+                                                                                          'ID',
+                                                                                  'type': 'measure'},
+                                                               'display_name': '{Interview_ID}',
+                                                               'element_name': 'Interview_ID'}),
+                                                             ('Interview_location',
+                                                              {'attribute_name': 'Interview '
+                                                                                 'location',
+                                                               'attribute_type': 'measure',
+                                                               'database_entry': {'appendCharacterString': ' '
+                                                                                                           '- ',
+                                                                                  'description': None,
+                                                                                  'formatString': '{{if '
+                                                                                                  '$1 '
+                                                                                                  'then '
+                                                                                                  '$1}}{{if '
+                                                                                                  'and($1, '
+                                                                                                  '$2) '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '" '
+                                                                                                  '}}{{if '
+                                                                                                  '$2 '
+                                                                                                  'then '
+                                                                                                  '$2}}{{if '
+                                                                                                  '$3 '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '($3)"}}{{if '
+                                                                                                  'between($4,0,0.49) '
+                                                                                                  'then '
+                                                                                                  '"??" '
+                                                                                                  'elsif '
+                                                                                                  'lessThan($4,1) '
+                                                                                                  'then '
+                                                                                                  '"?" '
+                                                                                                  '}}',
+                                                                                  'isIdentifier': False,
+                                                                                  'name': 'Interview '
+                                                                                          'location',
+                                                                                  'type': 'measure'},
+                                                               'display_name': '{Interview_Location__address__city__state_}',
+                                                               'element_name': 'Interview_location'}),
+                                                             ('Latitude',
+                                                              {'attribute_name': 'Latitude',
+                                                               'attribute_type': 'measure',
+                                                               'database_entry': {'appendCharacterString': ' '
+                                                                                                           '- ',
+                                                                                  'description': None,
+                                                                                  'formatString': '{{if '
+                                                                                                  '$1 '
+                                                                                                  'then '
+                                                                                                  '$1}}{{if '
+                                                                                                  'and($1, '
+                                                                                                  '$2) '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '" '
+                                                                                                  '}}{{if '
+                                                                                                  '$2 '
+                                                                                                  'then '
+                                                                                                  '$2}}{{if '
+                                                                                                  '$3 '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '($3)"}}{{if '
+                                                                                                  'between($4,0,0.49) '
+                                                                                                  'then '
+                                                                                                  '"??" '
+                                                                                                  'elsif '
+                                                                                                  'lessThan($4,1) '
+                                                                                                  'then '
+                                                                                                  '"?" '
+                                                                                                  '}}',
+                                                                                  'isIdentifier': False,
+                                                                                  'name': 'Latitude',
+                                                                                  'type': 'measure'},
+                                                               'display_name': '{Latitude}',
+                                                               'element_name': 'Latitude'}),
+                                                             ('Longitude',
+                                                              {'attribute_name': 'Longitude',
+                                                               'attribute_type': 'measure',
+                                                               'database_entry': {'appendCharacterString': ' '
+                                                                                                           '- ',
+                                                                                  'description': None,
+                                                                                  'formatString': '{{if '
+                                                                                                  '$1 '
+                                                                                                  'then '
+                                                                                                  '$1}}{{if '
+                                                                                                  'and($1, '
+                                                                                                  '$2) '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '" '
+                                                                                                  '}}{{if '
+                                                                                                  '$2 '
+                                                                                                  'then '
+                                                                                                  '$2}}{{if '
+                                                                                                  '$3 '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '($3)"}}{{if '
+                                                                                                  'between($4,0,0.49) '
+                                                                                                  'then '
+                                                                                                  '"??" '
+                                                                                                  'elsif '
+                                                                                                  'lessThan($4,1) '
+                                                                                                  'then '
+                                                                                                  '"?" '
+                                                                                                  '}}',
+                                                                                  'isIdentifier': False,
+                                                                                  'name': 'Longitude',
+                                                                                  'type': 'measure'},
+                                                               'display_name': '{Longitude}',
+                                                               'element_name': 'Longitude'}),
+                                                             ('Northing',
+                                                              {'attribute_name': 'Northing',
+                                                               'attribute_type': 'measure',
+                                                               'database_entry': {'appendCharacterString': ' '
+                                                                                                           '- ',
+                                                                                  'description': None,
+                                                                                  'formatString': '{{if '
+                                                                                                  '$1 '
+                                                                                                  'then '
+                                                                                                  '$1}}{{if '
+                                                                                                  'and($1, '
+                                                                                                  '$2) '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '" '
+                                                                                                  '}}{{if '
+                                                                                                  '$2 '
+                                                                                                  'then '
+                                                                                                  '$2}}{{if '
+                                                                                                  '$3 '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '($3)"}}{{if '
+                                                                                                  'between($4,0,0.49) '
+                                                                                                  'then '
+                                                                                                  '"??" '
+                                                                                                  'elsif '
+                                                                                                  'lessThan($4,1) '
+                                                                                                  'then '
+                                                                                                  '"?" '
+                                                                                                  '}}',
+                                                                                  'isIdentifier': False,
+                                                                                  'name': 'Northing',
+                                                                                  'type': 'measure'},
+                                                               'display_name': '{Northing}',
+                                                               'element_name': 'Northing'}),
+                                                             ('Easting',
+                                                              {'attribute_name': 'Easting',
+                                                               'attribute_type': 'measure',
+                                                               'database_entry': {'appendCharacterString': ' '
+                                                                                                           '- ',
+                                                                                  'description': None,
+                                                                                  'formatString': '{{if '
+                                                                                                  '$1 '
+                                                                                                  'then '
+                                                                                                  '$1}}{{if '
+                                                                                                  'and($1, '
+                                                                                                  '$2) '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '" '
+                                                                                                  '}}{{if '
+                                                                                                  '$2 '
+                                                                                                  'then '
+                                                                                                  '$2}}{{if '
+                                                                                                  '$3 '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '($3)"}}{{if '
+                                                                                                  'between($4,0,0.49) '
+                                                                                                  'then '
+                                                                                                  '"??" '
+                                                                                                  'elsif '
+                                                                                                  'lessThan($4,1) '
+                                                                                                  'then '
+                                                                                                  '"?" '
+                                                                                                  '}}',
+                                                                                  'isIdentifier': False,
+                                                                                  'name': 'Easting',
+                                                                                  'type': 'measure'},
+                                                               'display_name': '{Easting}',
+                                                               'element_name': 'Easting'}),
+                                                             ('Accuracy',
+                                                              {'attribute_name': 'Accuracy',
+                                                               'attribute_type': 'measure',
+                                                               'database_entry': {'appendCharacterString': ' '
+                                                                                                           '- ',
+                                                                                  'description': None,
+                                                                                  'formatString': '{{if '
+                                                                                                  '$1 '
+                                                                                                  'then '
+                                                                                                  '$1}}{{if '
+                                                                                                  'and($1, '
+                                                                                                  '$2) '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '" '
+                                                                                                  '}}{{if '
+                                                                                                  '$2 '
+                                                                                                  'then '
+                                                                                                  '$2}}{{if '
+                                                                                                  '$3 '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '($3)"}}{{if '
+                                                                                                  'between($4,0,0.49) '
+                                                                                                  'then '
+                                                                                                  '"??" '
+                                                                                                  'elsif '
+                                                                                                  'lessThan($4,1) '
+                                                                                                  'then '
+                                                                                                  '"?" '
+                                                                                                  '}}',
+                                                                                  'isIdentifier': False,
+                                                                                  'name': 'Accuracy',
+                                                                                  'type': 'measure'},
+                                                               'display_name': '{Accuracy}',
+                                                               'element_name': 'Accuracy'}),
+                                                             ('Time_when_interview_started',
+                                                              {'attribute_name': 'Time '
+                                                                                 'when '
+                                                                                 'interview '
+                                                                                 'started',
+                                                               'attribute_type': 'measure',
+                                                               'database_entry': {'appendCharacterString': ' '
+                                                                                                           '- ',
+                                                                                  'description': None,
+                                                                                  'formatString': '{{if '
+                                                                                                  '$1 '
+                                                                                                  'then '
+                                                                                                  '$1}}{{if '
+                                                                                                  'and($1, '
+                                                                                                  '$2) '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '" '
+                                                                                                  '}}{{if '
+                                                                                                  '$2 '
+                                                                                                  'then '
+                                                                                                  '$2}}{{if '
+                                                                                                  '$3 '
+                                                                                                  'then '
+                                                                                                  '" '
+                                                                                                  '($3)"}}{{if '
+                                                                                                  'between($4,0,0.49) '
+                                                                                                  'then '
+                                                                                                  '"??" '
+                                                                                                  'elsif '
+                                                                                                  'lessThan($4,1) '
+                                                                                                  'then '
+                                                                                                  '"?" '
+                                                                                                  '}}',
+                                                                                  'isIdentifier': False,
+                                                                                  'name': 'Time '
+                                                                                          'when '
+                                                                                          'interview '
+                                                                                          'started',
+                                                                                  'type': 'measure'},
+                                                               'display_name': '{Time_when_interview_started}',
+                                                               'element_name': 'Time_when_interview_started'}),
+                                                             ('Time_when_interview_ended',
+                                                              {'attribute_name': 'Time '
+                                                                                 'when '
+                                                                                 'interview '
+                                                                                 'ended',
+                                                               'attribute_type': 'measure',
+                                                               'database_entry': {'appendCharacterString': ' '
+                                                                                                           '- ',
+                                                                                  'description': None,
+                                                                                  'formatString': ': '
+                                                                                                  '$2',
+                                                                                  'isIdentifier': 'true',
+                                                                                  'name': 'Time '
+                                                                                          'when '
+                                                                                          'interview '
+                                                                                          'ended',
+                                                                                  'type': 'measure'},
+                                                               'display_name': '{Time_when_interview_ended}',
+                                                               'element_name': 'Time_when_interview_ended'})]),
+                                      'view_name': 'Admin'}),
+                                    ('Participants',
+                                     {'display_name': '{Participants}',
+                                      'fields': OrderedDict([('List_of_Participants',
+                                                              {'attribute_name': None,
+                                                               'attribute_type': None,
+                                                               'database_entry': None,
+                                                               'display_name': '{List_of_Participants}',
+                                                               'element_name': 'List_of_Participants'})]),
+                                      'view_name': 'Participants'}),
+                                    ('External_Recordings',
+                                     {'display_name': '{External_Recordings}',
+                                      'fields': OrderedDict(),
+                                      'view_name': 'External_Recordings'})]),
+               'view_name': 'Interview'},
+ 'Participant': {'data_schema': 'Participant',
+                 'display_name': '{Participant}',
+                 'tabs': OrderedDict([('Participant_Admin',
+                                       {'display_name': '{Participant_Admin}',
+                                        'fields': OrderedDict([('Interview_ID',
+                                                                {'attribute_name': 'Interview '
+                                                                                   'ID',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': 'Interview '
+                                                                                                    '$2',
+                                                                                    'isIdentifier': 'true',
+                                                                                    'name': 'Interview '
+                                                                                            'ID',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{Interview_ID}',
+                                                                 'element_name': 'Interview_ID'}),
+                                                               ('Interviewee_ID',
+                                                                {'attribute_name': 'Interviewee '
+                                                                                   'ID',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '-Participant '
+                                                                                                    '$2',
+                                                                                    'isIdentifier': 'true',
+                                                                                    'name': 'Interviewee '
+                                                                                            'ID',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{Interviewee_ID}',
+                                                                 'element_name': 'Interviewee_ID'}),
+                                                               ('First_name_of_interviewee',
+                                                                {'attribute_name': 'First '
+                                                                                   'name '
+                                                                                   'of '
+                                                                                   'interviewee',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': ': '
+                                                                                                    '$2',
+                                                                                    'isIdentifier': 'true',
+                                                                                    'name': 'First '
+                                                                                            'name '
+                                                                                            'of '
+                                                                                            'interviewee',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{First_name_of_interviewee}',
+                                                                 'element_name': 'First_name_of_interviewee'}),
+                                                               ('Last_name_of_interviewee',
+                                                                {'attribute_name': 'Last '
+                                                                                   'name '
+                                                                                   'of '
+                                                                                   'interviewee',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': ' '
+                                                                                                    '$2',
+                                                                                    'isIdentifier': 'true',
+                                                                                    'name': 'Last '
+                                                                                            'name '
+                                                                                            'of '
+                                                                                            'interviewee',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{Last_name_of_interviewee}',
+                                                                 'element_name': 'Last_name_of_interviewee'}),
+                                                               ('Gender',
+                                                                {'attribute_name': 'Gender',
+                                                                 'attribute_type': 'vocab',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Gender',
+                                                                                    'type': 'vocab',
+                                                                                    'vocab': [{'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Male}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Female}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{N_A}'}]},
+                                                                 'display_name': '{Gender}',
+                                                                 'element_name': 'Gender'})]),
+                                        'view_name': 'Participant_Admin'}),
+                                      ('Participant_Questions',
+                                       {'display_name': '{Participant_Questions}',
+                                        'fields': OrderedDict([('Where_was_your_mother_born_village',
+                                                                {'attribute_name': 'Where '
+                                                                                   'was '
+                                                                                   'your '
+                                                                                   'mother '
+                                                                                   'born '
+                                                                                   'village',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Where '
+                                                                                            'was '
+                                                                                            'your '
+                                                                                            'mother '
+                                                                                            'born '
+                                                                                            'village',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{Where_was_your_mother_born__village__}',
+                                                                 'element_name': 'Where_was_your_mother_born_village'}),
+                                                               ('Where_was_your_father_born_village',
+                                                                {'attribute_name': 'Where '
+                                                                                   'was '
+                                                                                   'your '
+                                                                                   'father '
+                                                                                   'born '
+                                                                                   'village',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Where '
+                                                                                            'was '
+                                                                                            'your '
+                                                                                            'father '
+                                                                                            'born '
+                                                                                            'village',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{Where_was_your_father_born__village__}',
+                                                                 'element_name': 'Where_was_your_father_born_village'}),
+                                                               ('When_did_your_mother_migrate_to_Australia',
+                                                                {'attribute_name': 'When '
+                                                                                   'did '
+                                                                                   'your '
+                                                                                   'mother '
+                                                                                   'migrate '
+                                                                                   'to '
+                                                                                   'Australia',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'When '
+                                                                                            'did '
+                                                                                            'your '
+                                                                                            'mother '
+                                                                                            'migrate '
+                                                                                            'to '
+                                                                                            'Australia',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{When_did_your_mother_migrate_to_Australia_}',
+                                                                 'element_name': 'When_did_your_mother_migrate_to_Australia'}),
+                                                               ('When_did_your_father_migrate_to_Australia',
+                                                                {'attribute_name': 'When '
+                                                                                   'did '
+                                                                                   'your '
+                                                                                   'father '
+                                                                                   'migrate '
+                                                                                   'to '
+                                                                                   'Australia',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'When '
+                                                                                            'did '
+                                                                                            'your '
+                                                                                            'father '
+                                                                                            'migrate '
+                                                                                            'to '
+                                                                                            'Australia',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{When_did_your_father_migrate_to_Australia_}',
+                                                                 'element_name': 'When_did_your_father_migrate_to_Australia'}),
+                                                               ('Where_did_they_live_in_Australia_locality',
+                                                                {'attribute_name': 'Where '
+                                                                                   'did '
+                                                                                   'they '
+                                                                                   'live '
+                                                                                   'in '
+                                                                                   'Australia '
+                                                                                   'locality',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Where '
+                                                                                            'did '
+                                                                                            'they '
+                                                                                            'live '
+                                                                                            'in '
+                                                                                            'Australia '
+                                                                                            'locality',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{Where_did_they_live_in_Australia__locality__}',
+                                                                 'element_name': 'Where_did_they_live_in_Australia_locality'}),
+                                                               ('What_was_your_fathers_occupation',
+                                                                {'attribute_name': 'What '
+                                                                                   'was '
+                                                                                   'your '
+                                                                                   'fathers '
+                                                                                   'occupation',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'What '
+                                                                                            'was '
+                                                                                            'your '
+                                                                                            'fathers '
+                                                                                            'occupation',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{What_was_your_father_s_occupation_}',
+                                                                 'element_name': 'What_was_your_fathers_occupation'}),
+                                                               ('If_so_what_was_your_mothers_occupation',
+                                                                {'attribute_name': 'If '
+                                                                                   'so '
+                                                                                   'what '
+                                                                                   'was '
+                                                                                   'your '
+                                                                                   'mothers '
+                                                                                   'occupation',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'If '
+                                                                                            'so '
+                                                                                            'what '
+                                                                                            'was '
+                                                                                            'your '
+                                                                                            'mothers '
+                                                                                            'occupation',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{If_so__what_was_your_mother_s_occupation_}',
+                                                                 'element_name': 'If_so_what_was_your_mothers_occupation'}),
+                                                               ('When_were_you_born',
+                                                                {'attribute_name': 'When '
+                                                                                   'were '
+                                                                                   'you '
+                                                                                   'born',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'When '
+                                                                                            'were '
+                                                                                            'you '
+                                                                                            'born',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{When_were_you_born_}',
+                                                                 'element_name': 'When_were_you_born'}),
+                                                               ('Where_were_you_born_location',
+                                                                {'attribute_name': 'Where '
+                                                                                   'were '
+                                                                                   'you '
+                                                                                   'born '
+                                                                                   'location',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Where '
+                                                                                            'were '
+                                                                                            'you '
+                                                                                            'born '
+                                                                                            'location',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{Where_were_you_born__city__town__locality__}',
+                                                                 'element_name': 'Where_were_you_born_location'}),
+                                                               ('Where_did_you_go_to_school_location',
+                                                                {'attribute_name': 'Where '
+                                                                                   'did '
+                                                                                   'you '
+                                                                                   'go '
+                                                                                   'to '
+                                                                                   'school '
+                                                                                   'location',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Where '
+                                                                                            'did '
+                                                                                            'you '
+                                                                                            'go '
+                                                                                            'to '
+                                                                                            'school '
+                                                                                            'location',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{Where_did_you_go_to_school__city__town__locality__}',
+                                                                 'element_name': 'Where_did_you_go_to_school_location'}),
+                                                               ('Where_did_you_go_to_university',
+                                                                {'attribute_name': 'Where '
+                                                                                   'did '
+                                                                                   'you '
+                                                                                   'go '
+                                                                                   'to '
+                                                                                   'university',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Where '
+                                                                                            'did '
+                                                                                            'you '
+                                                                                            'go '
+                                                                                            'to '
+                                                                                            'university',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{Where_did_you_go_to_university__institution__location__}',
+                                                                 'element_name': 'Where_did_you_go_to_university'}),
+                                                               ('What_was_your_first_line_of_work_occupation',
+                                                                {'attribute_name': 'What '
+                                                                                   'was '
+                                                                                   'your '
+                                                                                   'first '
+                                                                                   'line '
+                                                                                   'of '
+                                                                                   'work '
+                                                                                   'occupation',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'What '
+                                                                                            'was '
+                                                                                            'your '
+                                                                                            'first '
+                                                                                            'line '
+                                                                                            'of '
+                                                                                            'work '
+                                                                                            'occupation',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{What_was_your_first_line_of_work___occupation_}',
+                                                                 'element_name': 'What_was_your_first_line_of_work_occupation'}),
+                                                               ('Notes',
+                                                                {'attribute_name': 'Notes',
+                                                                 'attribute_type': 'measure',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Notes',
+                                                                                    'type': 'measure'},
+                                                                 'display_name': '{Notes}',
+                                                                 'element_name': 'Notes'}),
+                                                               ('Where_was_your_mother_born_region',
+                                                                {'attribute_name': 'Where '
+                                                                                   'was '
+                                                                                   'your '
+                                                                                   'mother '
+                                                                                   'born '
+                                                                                   'region',
+                                                                 'attribute_type': 'vocab',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Where '
+                                                                                            'was '
+                                                                                            'your '
+                                                                                            'mother '
+                                                                                            'born '
+                                                                                            'region',
+                                                                                    'type': 'vocab',
+                                                                                    'vocab': [{'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Thrace}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Macedonia}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Thessaly}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Epirus}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Central_Greece}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Peloponnese}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Aegean_Islands}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Ionian_Island}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Crete}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Outside_of_Greece}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Non_Greek}'}]},
+                                                                 'display_name': '{Where_was_your_mother_born__region__}',
+                                                                 'element_name': 'Where_was_your_mother_born_region'}),
+                                                               ('Where_was_your_father_born_region',
+                                                                {'attribute_name': 'Where '
+                                                                                   'was '
+                                                                                   'your '
+                                                                                   'father '
+                                                                                   'born '
+                                                                                   'region',
+                                                                 'attribute_type': 'vocab',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Where '
+                                                                                            'was '
+                                                                                            'your '
+                                                                                            'father '
+                                                                                            'born '
+                                                                                            'region',
+                                                                                    'type': 'vocab',
+                                                                                    'vocab': [{'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Thrace}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Macedonia}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Thessaly}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Epirus}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Central_Greece}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Peloponnese}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Aegean_Islands}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Ionian_Island}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Crete}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Outside_of_Greece}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Non_Greek}'}]},
+                                                                 'display_name': '{Where_was_your_father_born__region__}',
+                                                                 'element_name': 'Where_was_your_father_born_region'}),
+                                                               ('Did_your_mother_migrate_to_Australia',
+                                                                {'attribute_name': 'Did '
+                                                                                   'your '
+                                                                                   'mother '
+                                                                                   'migrate '
+                                                                                   'to '
+                                                                                   'Australia',
+                                                                 'attribute_type': 'vocab',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Did '
+                                                                                            'your '
+                                                                                            'mother '
+                                                                                            'migrate '
+                                                                                            'to '
+                                                                                            'Australia',
+                                                                                    'type': 'vocab',
+                                                                                    'vocab': [{'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Yes}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{No}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Other}'}]},
+                                                                 'display_name': '{Did_your_mother_migrate_to_Austraila_}',
+                                                                 'element_name': 'Did_your_mother_migrate_to_Australia'}),
+                                                               ('Did_your_father_migrate_to_Australia',
+                                                                {'attribute_name': 'Did '
+                                                                                   'your '
+                                                                                   'father '
+                                                                                   'migrate '
+                                                                                   'to '
+                                                                                   'Australia',
+                                                                 'attribute_type': 'vocab',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Did '
+                                                                                            'your '
+                                                                                            'father '
+                                                                                            'migrate '
+                                                                                            'to '
+                                                                                            'Australia',
+                                                                                    'type': 'vocab',
+                                                                                    'vocab': [{'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Yes}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{No}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Other}'}]},
+                                                                 'display_name': '{Did_your_father_migrate_to_Austraila_}',
+                                                                 'element_name': 'Did_your_father_migrate_to_Australia'}),
+                                                               ('Where_did_they_live_in_Australia_state',
+                                                                {'attribute_name': 'Where '
+                                                                                   'did '
+                                                                                   'they '
+                                                                                   'live '
+                                                                                   'in '
+                                                                                   'Australia '
+                                                                                   'state',
+                                                                 'attribute_type': 'vocab',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Where '
+                                                                                            'did '
+                                                                                            'they '
+                                                                                            'live '
+                                                                                            'in '
+                                                                                            'Australia '
+                                                                                            'state',
+                                                                                    'type': 'vocab',
+                                                                                    'vocab': [{'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{ACT}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{NSW}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{NT}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{QLD}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{SA}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{TAS}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{VIC}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{WA}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Other}'}]},
+                                                                 'display_name': '{Where_did_they_live_in_Australia__state__}',
+                                                                 'element_name': 'Where_did_they_live_in_Australia_state'}),
+                                                               ('Did_your_mother_work',
+                                                                {'attribute_name': 'Did '
+                                                                                   'your '
+                                                                                   'mother '
+                                                                                   'work',
+                                                                 'attribute_type': 'vocab',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Did '
+                                                                                            'your '
+                                                                                            'mother '
+                                                                                            'work',
+                                                                                    'type': 'vocab',
+                                                                                    'vocab': [{'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Yes}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{No}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{N_A}'}]},
+                                                                 'display_name': '{Did_your_mother_work_}',
+                                                                 'element_name': 'Did_your_mother_work'}),
+                                                               ('Where_were_you_born_state',
+                                                                {'attribute_name': 'Where '
+                                                                                   'were '
+                                                                                   'you '
+                                                                                   'born '
+                                                                                   'state',
+                                                                 'attribute_type': 'vocab',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Where '
+                                                                                            'were '
+                                                                                            'you '
+                                                                                            'born '
+                                                                                            'state',
+                                                                                    'type': 'vocab',
+                                                                                    'vocab': [{'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{ACT}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{NSW}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{NT}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{QLD}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{SA}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{TAS}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{VIC}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{WA}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Other}'}]},
+                                                                 'display_name': '{Where_were_you_born__state__}',
+                                                                 'element_name': 'Where_were_you_born_state'}),
+                                                               ('Where_did_you_go_to_school_state',
+                                                                {'attribute_name': 'Where '
+                                                                                   'did '
+                                                                                   'you '
+                                                                                   'go '
+                                                                                   'to '
+                                                                                   'school '
+                                                                                   'state',
+                                                                 'attribute_type': 'vocab',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Where '
+                                                                                            'did '
+                                                                                            'you '
+                                                                                            'go '
+                                                                                            'to '
+                                                                                            'school '
+                                                                                            'state',
+                                                                                    'type': 'vocab',
+                                                                                    'vocab': [{'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{ACT}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{NSW}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{NT}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{QLD}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{SA}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{TAS}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{VIC}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{WA}'}]},
+                                                                 'display_name': '{Where_did_you_go_to_school__state__}',
+                                                                 'element_name': 'Where_did_you_go_to_school_state'}),
+                                                               ('Do_you_recall_many_incidents_of_xenophobia_or_bigotry',
+                                                                {'attribute_name': 'Do '
+                                                                                   'you '
+                                                                                   'recall '
+                                                                                   'many '
+                                                                                   'incidents '
+                                                                                   'of '
+                                                                                   'xenophobia '
+                                                                                   'or '
+                                                                                   'bigotry',
+                                                                 'attribute_type': 'vocab',
+                                                                 'database_entry': {'appendCharacterString': ' '
+                                                                                                             '- ',
+                                                                                    'description': None,
+                                                                                    'formatString': '{{if '
+                                                                                                    '$1 '
+                                                                                                    'then '
+                                                                                                    '$1}}{{if '
+                                                                                                    'and($1, '
+                                                                                                    '$2) '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '" '
+                                                                                                    '}}{{if '
+                                                                                                    '$2 '
+                                                                                                    'then '
+                                                                                                    '$2}}{{if '
+                                                                                                    '$3 '
+                                                                                                    'then '
+                                                                                                    '" '
+                                                                                                    '($3)"}}{{if '
+                                                                                                    'between($4,0,0.49) '
+                                                                                                    'then '
+                                                                                                    '"??" '
+                                                                                                    'elsif '
+                                                                                                    'lessThan($4,1) '
+                                                                                                    'then '
+                                                                                                    '"?" '
+                                                                                                    '}}',
+                                                                                    'isIdentifier': False,
+                                                                                    'name': 'Do '
+                                                                                            'you '
+                                                                                            'recall '
+                                                                                            'many '
+                                                                                            'incidents '
+                                                                                            'of '
+                                                                                            'xenophobia '
+                                                                                            'or '
+                                                                                            'bigotry',
+                                                                                    'type': 'vocab',
+                                                                                    'vocab': [{'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{Yes}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{No}'},
+                                                                                              {'desc': '',
+                                                                                               'pictureURL': None,
+                                                                                               'term': '{N_A}'}]},
+                                                                 'display_name': '{Do_you_recall_many_incidents_of_xenophobia_or_bigotry_}',
+                                                                 'element_name': 'Do_you_recall_many_incidents_of_xenophobia_or_bigotry'})]),
+                                        'view_name': 'Participant_Questions'})]),
+                 'view_name': 'Participant'}}
+no db entry for Interview/Participants/Participants, skipping for now, even though this is probably a list of child-entities.

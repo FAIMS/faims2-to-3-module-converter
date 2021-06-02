@@ -1,0 +1,2 @@
+include versioneer.py
+include src/faims2_to_3/_version.py
