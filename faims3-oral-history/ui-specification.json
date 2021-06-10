@@ -1,0 +1,1190 @@
+{
+  "_id": "ui-specification",
+  "fields": {
+    "Interview_ID": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Interview_ID",
+        "id": "Interview_ID",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Interview ID"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Interview_location": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Interview_location",
+        "id": "Interview_location",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Interview location"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Latitude": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Latitude",
+        "id": "Latitude",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Latitude"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Longitude": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Longitude",
+        "id": "Longitude",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Longitude"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Northing": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Northing",
+        "id": "Northing",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Northing"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Easting": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Easting",
+        "id": "Easting",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Easting"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Accuracy": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Accuracy",
+        "id": "Accuracy",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Accuracy"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Time_when_interview_started": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Time_when_interview_started",
+        "id": "Time_when_interview_started",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Time when interview started"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Time_when_interview_ended": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Time_when_interview_ended",
+        "id": "Time_when_interview_ended",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Time when interview ended"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "List_of_Participants": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "List_of_Participants",
+        "id": "List_of_Participants",
+        "helperText": "No database entry",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "Interviewee_ID": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Interviewee_ID",
+        "id": "Interviewee_ID",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Interviewee ID"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "First_name_of_interviewee": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "First_name_of_interviewee",
+        "id": "First_name_of_interviewee",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "First name of interviewee"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Last_name_of_interviewee": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Last_name_of_interviewee",
+        "id": "Last_name_of_interviewee",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Last name of interviewee"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Gender": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Gender",
+        "id": "Gender",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Male",
+              "label": "Male"
+            },
+            {
+              "value": "Female",
+              "label": "Female"
+            },
+            {
+              "value": "N/A",
+              "label": "N/A"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Gender"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Where_was_your_mother_born_village": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Where_was_your_mother_born_village",
+        "id": "Where_was_your_mother_born_village",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Where was your mother born village"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Where_was_your_father_born_village": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Where_was_your_father_born_village",
+        "id": "Where_was_your_father_born_village",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Where was your father born village"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "When_did_your_mother_migrate_to_Australia": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "When_did_your_mother_migrate_to_Australia",
+        "id": "When_did_your_mother_migrate_to_Australia",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "When did your mother migrate to Australia"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "When_did_your_father_migrate_to_Australia": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "When_did_your_father_migrate_to_Australia",
+        "id": "When_did_your_father_migrate_to_Australia",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "When did your father migrate to Australia"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Where_did_they_live_in_Australia_locality": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Where_did_they_live_in_Australia_locality",
+        "id": "Where_did_they_live_in_Australia_locality",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Where did they live in Australia locality"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "What_was_your_fathers_occupation": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "What_was_your_fathers_occupation",
+        "id": "What_was_your_fathers_occupation",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "What was your fathers occupation"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "If_so_what_was_your_mothers_occupation": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "If_so_what_was_your_mothers_occupation",
+        "id": "If_so_what_was_your_mothers_occupation",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "If so what was your mothers occupation"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "When_were_you_born": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "When_were_you_born",
+        "id": "When_were_you_born",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "When were you born"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Where_were_you_born_location": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Where_were_you_born_location",
+        "id": "Where_were_you_born_location",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Where were you born location"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Where_did_you_go_to_school_location": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Where_did_you_go_to_school_location",
+        "id": "Where_did_you_go_to_school_location",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Where did you go to school location"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Where_did_you_go_to_university": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Where_did_you_go_to_university",
+        "id": "Where_did_you_go_to_university",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Where did you go to university"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "What_was_your_first_line_of_work_occupation": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "What_was_your_first_line_of_work_occupation",
+        "id": "What_was_your_first_line_of_work_occupation",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "What was your first line of work occupation"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Notes": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Notes",
+        "id": "Notes",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Notes"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Where_was_your_mother_born_region": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Where_was_your_mother_born_region",
+        "id": "Where_was_your_mother_born_region",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Thrace",
+              "label": "Thrace"
+            },
+            {
+              "value": "Macedonia",
+              "label": "Macedonia"
+            },
+            {
+              "value": "Thessaly",
+              "label": "Thessaly"
+            },
+            {
+              "value": "Epirus",
+              "label": "Epirus"
+            },
+            {
+              "value": "Central Greece",
+              "label": "Central Greece"
+            },
+            {
+              "value": "Peloponnese",
+              "label": "Peloponnese"
+            },
+            {
+              "value": "Aegean Islands",
+              "label": "Aegean Islands"
+            },
+            {
+              "value": "Ionian Island",
+              "label": "Ionian Island"
+            },
+            {
+              "value": "Crete",
+              "label": "Crete"
+            },
+            {
+              "value": "Outside of Greece",
+              "label": "Outside of Greece"
+            },
+            {
+              "value": "Non-Greek",
+              "label": "Non-Greek"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Where was your mother born region"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Where_was_your_father_born_region": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Where_was_your_father_born_region",
+        "id": "Where_was_your_father_born_region",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Thrace",
+              "label": "Thrace"
+            },
+            {
+              "value": "Macedonia",
+              "label": "Macedonia"
+            },
+            {
+              "value": "Thessaly",
+              "label": "Thessaly"
+            },
+            {
+              "value": "Epirus",
+              "label": "Epirus"
+            },
+            {
+              "value": "Central Greece",
+              "label": "Central Greece"
+            },
+            {
+              "value": "Peloponnese",
+              "label": "Peloponnese"
+            },
+            {
+              "value": "Aegean Islands",
+              "label": "Aegean Islands"
+            },
+            {
+              "value": "Ionian Island",
+              "label": "Ionian Island"
+            },
+            {
+              "value": "Crete",
+              "label": "Crete"
+            },
+            {
+              "value": "Outside of Greece",
+              "label": "Outside of Greece"
+            },
+            {
+              "value": "Non-Greek",
+              "label": "Non-Greek"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Where was your father born region"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Did_your_mother_migrate_to_Australia": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Did_your_mother_migrate_to_Australia",
+        "id": "Did_your_mother_migrate_to_Australia",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Yes",
+              "label": "Yes"
+            },
+            {
+              "value": "No",
+              "label": "No"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Did your mother migrate to Australia"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Did_your_father_migrate_to_Australia": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Did_your_father_migrate_to_Australia",
+        "id": "Did_your_father_migrate_to_Australia",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Yes",
+              "label": "Yes"
+            },
+            {
+              "value": "No",
+              "label": "No"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Did your father migrate to Australia"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Where_did_they_live_in_Australia_state": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Where_did_they_live_in_Australia_state",
+        "id": "Where_did_they_live_in_Australia_state",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "ACT",
+              "label": "ACT"
+            },
+            {
+              "value": "NSW",
+              "label": "NSW"
+            },
+            {
+              "value": "NT",
+              "label": "NT"
+            },
+            {
+              "value": "QLD",
+              "label": "QLD"
+            },
+            {
+              "value": "SA",
+              "label": "SA"
+            },
+            {
+              "value": "TAS",
+              "label": "TAS"
+            },
+            {
+              "value": "VIC",
+              "label": "VIC"
+            },
+            {
+              "value": "WA",
+              "label": "WA"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Where did they live in Australia state"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Did_your_mother_work": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Did_your_mother_work",
+        "id": "Did_your_mother_work",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Yes",
+              "label": "Yes"
+            },
+            {
+              "value": "No",
+              "label": "No"
+            },
+            {
+              "value": "N/A",
+              "label": "N/A"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Did your mother work"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Where_were_you_born_state": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Where_were_you_born_state",
+        "id": "Where_were_you_born_state",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "ACT",
+              "label": "ACT"
+            },
+            {
+              "value": "NSW",
+              "label": "NSW"
+            },
+            {
+              "value": "NT",
+              "label": "NT"
+            },
+            {
+              "value": "QLD",
+              "label": "QLD"
+            },
+            {
+              "value": "SA",
+              "label": "SA"
+            },
+            {
+              "value": "TAS",
+              "label": "TAS"
+            },
+            {
+              "value": "VIC",
+              "label": "VIC"
+            },
+            {
+              "value": "WA",
+              "label": "WA"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Where were you born state"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Where_did_you_go_to_school_state": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Where_did_you_go_to_school_state",
+        "id": "Where_did_you_go_to_school_state",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "ACT",
+              "label": "ACT"
+            },
+            {
+              "value": "NSW",
+              "label": "NSW"
+            },
+            {
+              "value": "NT",
+              "label": "NT"
+            },
+            {
+              "value": "QLD",
+              "label": "QLD"
+            },
+            {
+              "value": "SA",
+              "label": "SA"
+            },
+            {
+              "value": "TAS",
+              "label": "TAS"
+            },
+            {
+              "value": "VIC",
+              "label": "VIC"
+            },
+            {
+              "value": "WA",
+              "label": "WA"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Where did you go to school state"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Do_you_recall_many_incidents_of_xenophobia_or_bigotry": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Do_you_recall_many_incidents_of_xenophobia_or_bigotry",
+        "id": "Do_you_recall_many_incidents_of_xenophobia_or_bigotry",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Yes",
+              "label": "Yes"
+            },
+            {
+              "value": "No",
+              "label": "No"
+            },
+            {
+              "value": "N/A",
+              "label": "N/A"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Do you recall many incidents of xenophobia or bigotry"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    }
+  },
+  "fviews": {
+    "Admin": {
+      "fields": [
+        "Interview_ID",
+        "Interview_location",
+        "Latitude",
+        "Longitude",
+        "Northing",
+        "Easting",
+        "Accuracy",
+        "Time_when_interview_started",
+        "Time_when_interview_ended"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Participants": {
+      "fields": [
+        "List_of_Participants"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "External Recordings": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Participant Admin": {
+      "fields": [
+        "Interview_ID",
+        "Interviewee_ID",
+        "First_name_of_interviewee",
+        "Last_name_of_interviewee",
+        "Gender"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Participant Questions": {
+      "fields": [
+        "Where_was_your_mother_born_village",
+        "Where_was_your_father_born_village",
+        "When_did_your_mother_migrate_to_Australia",
+        "When_did_your_father_migrate_to_Australia",
+        "Where_did_they_live_in_Australia_locality",
+        "What_was_your_fathers_occupation",
+        "If_so_what_was_your_mothers_occupation",
+        "When_were_you_born",
+        "Where_were_you_born_location",
+        "Where_did_you_go_to_school_location",
+        "Where_did_you_go_to_university",
+        "What_was_your_first_line_of_work_occupation",
+        "Notes",
+        "Where_was_your_mother_born_region",
+        "Where_was_your_father_born_region",
+        "Did_your_mother_migrate_to_Australia",
+        "Did_your_father_migrate_to_Australia",
+        "Where_did_they_live_in_Australia_state",
+        "Did_your_mother_work",
+        "Where_were_you_born_state",
+        "Where_did_you_go_to_school_state",
+        "Do_you_recall_many_incidents_of_xenophobia_or_bigotry"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    }
+  },
+  "start_view": "Admin"
+}

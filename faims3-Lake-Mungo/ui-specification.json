@@ -1,0 +1,567 @@
+{
+  "_id": "ui-specification",
+  "fields": {
+    "idNumber": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "idNumber",
+        "id": "idNumber",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "OldBone_-_ID_Number"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "gridSquare": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "gridSquare",
+        "id": "gridSquare",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "OldBone_-_Grid_Square"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "hearthType": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "hearthType",
+        "id": "hearthType",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "charcoal": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "charcoal",
+        "id": "charcoal",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "insituProportion": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "insituProportion",
+        "id": "insituProportion",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "associatedMaterialList": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "associatedMaterialList",
+        "id": "associatedMaterialList",
+        "helperText": "No database entry",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "notes": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "notes",
+        "id": "notes",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "OldBone_-_Notes"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "topographicSetting": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "topographicSetting",
+        "id": "topographicSetting",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "sedimentType": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "sedimentType",
+        "id": "sedimentType",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "stratigraphicUnit": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "stratigraphicUnit",
+        "id": "stratigraphicUnit",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "erosionVulnerability": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "erosionVulnerability",
+        "id": "erosionVulnerability",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "paleotopographicSetting": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "paleotopographicSetting",
+        "id": "paleotopographicSetting",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "assocBurntLacust": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "assocBurntLacust",
+        "id": "assocBurntLacust",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "assocBurntTerrestrial": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "assocBurntTerrestrial",
+        "id": "assocBurntTerrestrial",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "assocBurntEggshell": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "assocBurntEggshell",
+        "id": "assocBurntEggshell",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "clusterType": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "clusterType",
+        "id": "clusterType",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "associatedMaterialListInSitu": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "associatedMaterialListInSitu",
+        "id": "associatedMaterialListInSitu",
+        "helperText": "No database entry",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "associatedMaterialListSurface": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "associatedMaterialListSurface",
+        "id": "associatedMaterialListSurface",
+        "helperText": "No database entry",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "inSituOrSurface": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "inSituOrSurface",
+        "id": "inSituOrSurface",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "occurrenceType": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "occurrenceType",
+        "id": "occurrenceType",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "middenType": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "middenType",
+        "id": "middenType",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "presenceOfCharcoal": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "presenceOfCharcoal",
+        "id": "presenceOfCharcoal",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "proportionOfMaterialThatRemainsInSitu": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "proportionOfMaterialThatRemainsInSitu",
+        "id": "proportionOfMaterialThatRemainsInSitu",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "bivalvePreservation": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "bivalvePreservation",
+        "id": "bivalvePreservation",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "bivalveDispersal": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "bivalveDispersal",
+        "id": "bivalveDispersal",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "associatedInsituList": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "associatedInsituList",
+        "id": "associatedInsituList",
+        "helperText": "No database entry",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "associatedSurfaceList": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "associatedSurfaceList",
+        "id": "associatedSurfaceList",
+        "helperText": "No database entry",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "burnedMussel": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "burnedMussel",
+        "id": "burnedMussel",
+        "helperText": "Unknown entry type enum",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    }
+  },
+  "fviews": {
+    "Basic Identification": {
+      "fields": [
+        "idNumber",
+        "gridSquare",
+        "clusterType"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Hearth Structure": {
+      "fields": [
+        "insituProportion"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Associated Materials": {
+      "fields": [
+        "associatedInsituList",
+        "associatedSurfaceList"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Topographic and Stratigraphic Setting": {
+      "fields": [
+        "notes",
+        "topographicSetting",
+        "sedimentType",
+        "stratigraphicUnit",
+        "erosionVulnerability",
+        "paleotopographicSetting"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Material within the area of the hearth": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Lacustrine Material": {
+      "fields": [
+        "assocBurntLacust"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Terrestrial Bone Material": {
+      "fields": [
+        "assocBurntTerrestrial"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Eggshell": {
+      "fields": [
+        "assocBurntEggshell"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Stone Artefacts": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Other worked or transported material": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "In situ stone artefact description": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Surface Stone Artefact Description": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Material within the area of the stone scatter": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Hearthstones or Charcoal": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Shell Description": {
+      "fields": [
+        "presenceOfCharcoal",
+        "proportionOfMaterialThatRemainsInSitu",
+        "bivalvePreservation",
+        "bivalveDispersal"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Material Associated with Shell": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Hearth Material": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Associated lacustrine material": {
+      "fields": [
+        "assocBurntLacust"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Insitu and surface bone description": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Material within the area of the bone cluster": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Mussel": {
+      "fields": [
+        "bivalvePreservation",
+        "burnedMussel"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    }
+  },
+  "start_view": "Basic Identification"
+}

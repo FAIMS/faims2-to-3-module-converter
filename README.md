@@ -16,6 +16,6 @@ This is designed to work with a local python 3.9.5 environment.
 
 If you're using direnv > 2.21.0, the local envrc should work
 
-`$ pip install -r requirements.txt` should then work.
+`$ pip install .` should then work.
 
-invoke with ./convert.py
+invoke with ./convertAll.sh

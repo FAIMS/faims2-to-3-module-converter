@@ -4,6 +4,7 @@ import json
 from .find_module import get_module_files
 from .parse_data_schema import get_archents
 from .parse_ui_schema import get_ui_layout
+from .parse_arch16n import get_arch16n_dict
 from . import models
 
 
@@ -64,12 +65,15 @@ def build_ui_spec(ui_data):
 
 
 def write_ui_spec(*, module_path, output_path):
-    data_schema, ui_schema = get_module_files(module_path)
+    data_schema, ui_schema, arch16n = get_module_files(module_path)
 
-    parsed_data_schema = get_archents(data_schema)
+    parsed_arch16n = get_arch16n_dict(arch16n)
 
-    parsed_ui_schema = get_ui_layout(ui_schema, parsed_data_schema)
+    parsed_data_schema = get_archents(data_schema, parsed_arch16n)
 
-    json_string = json.dumps(build_ui_spec(parsed_ui_schema).render())
-    with open(output_path / "ui-specification.json") as f:
+    parsed_ui_schema = get_ui_layout(ui_schema, parsed_data_schema, parsed_arch16n)
+    #pprint(parsed_ui_schema, width=200)
+
+    json_string = json.dumps(build_ui_spec(parsed_ui_schema).render(), indent=2)
+    with open(output_path / "ui-specification.json", "w") as f:
         f.write(json_string)

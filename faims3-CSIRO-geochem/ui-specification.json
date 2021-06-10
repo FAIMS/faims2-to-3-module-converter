@@ -1,0 +1,2723 @@
+{
+  "_id": "ui-specification",
+  "fields": {
+    "Sample_Prefix_1": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Sample_Prefix_1",
+        "id": "Sample_Prefix_1",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Sample Prefix 1"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Sample_Prefix_2": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Sample_Prefix_2",
+        "id": "Sample_Prefix_2",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Sample Prefix 2"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Sample_ID": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Sample_ID",
+        "id": "Sample_ID",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Sample ID"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Timestamp_Field": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Timestamp_Field",
+        "id": "Timestamp_Field",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Timestamp Field"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Water_Sample_author": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Water_Sample_author",
+        "id": "Water_Sample_author",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Water Sample author"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Station_Deposit": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Station_Deposit",
+        "id": "Station_Deposit",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Station Deposit"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Project": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Project",
+        "id": "Project",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Project"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Area": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Area",
+        "id": "Area",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Area"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Site_Name": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Site_Name",
+        "id": "Site_Name",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Site Name"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Latitude": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Latitude",
+        "id": "Latitude",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Latitude"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Longitude": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Longitude",
+        "id": "Longitude",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Longitude"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Northing": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Northing",
+        "id": "Northing",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Northing"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Easting": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Easting",
+        "id": "Easting",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Easting"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Accuracy": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Accuracy",
+        "id": "Accuracy",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Accuracy"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Elevation_Metres_above_Sea_Level": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Elevation_Metres_above_Sea_Level",
+        "id": "Elevation_Metres_above_Sea_Level",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Elevation Metres above Sea Level"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Water_Table": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Water_Table",
+        "id": "Water_Table",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Water Table"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Sample_Depth": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Sample_Depth",
+        "id": "Sample_Depth",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Sample Depth"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Bottom_Of_Hole": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Bottom_Of_Hole",
+        "id": "Bottom_Of_Hole",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Bottom Of Hole"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Notes": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Notes",
+        "id": "Notes",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Notes"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Suffix": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Suffix",
+        "id": "Suffix",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "A",
+              "label": "A"
+            },
+            {
+              "value": "B",
+              "label": "B"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Soil Crust Sample Suffix"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Observation_Type": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Observation_Type",
+        "id": "Observation_Type",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Sampling Location",
+              "label": "Sampling Location"
+            },
+            {
+              "value": "Observation Only",
+              "label": "Observation Only"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Observation Type"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "SRID": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "SRID",
+        "id": "SRID",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "28349",
+              "label": "28349"
+            },
+            {
+              "value": "28350",
+              "label": "28350"
+            },
+            {
+              "value": "28351",
+              "label": "28351"
+            },
+            {
+              "value": "28352",
+              "label": "28352"
+            },
+            {
+              "value": "28353",
+              "label": "28353"
+            },
+            {
+              "value": "28354",
+              "label": "28354"
+            },
+            {
+              "value": "28355",
+              "label": "28355"
+            },
+            {
+              "value": "28356",
+              "label": "28356"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "SRID"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Estimated_Angle": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Estimated_Angle",
+        "id": "Estimated_Angle",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Estimated Angle"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Hole_Type": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Hole_Type",
+        "id": "Hole_Type",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Still Bore (Bailed)",
+              "label": "Still Bore (Bailed)"
+            },
+            {
+              "value": "Still Well (Bailed)",
+              "label": "Still Well (Bailed)"
+            },
+            {
+              "value": "Flowing Bore",
+              "label": "Flowing Bore"
+            },
+            {
+              "value": "Flowing Well",
+              "label": "Flowing Well"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Hole Type"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Hole_Lining": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Hole_Lining",
+        "id": "Hole_Lining",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Metal",
+              "label": "Metal"
+            },
+            {
+              "value": "Rusty",
+              "label": "Rusty"
+            },
+            {
+              "value": "Poly pipe/plastic",
+              "label": "Poly pipe/plastic"
+            },
+            {
+              "value": "Cement",
+              "label": "Cement"
+            },
+            {
+              "value": "Wood",
+              "label": "Wood"
+            },
+            {
+              "value": "Dirt",
+              "label": "Dirt"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Hole Lining"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Hole_Open_Closed": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Hole_Open_Closed",
+        "id": "Hole_Open_Closed",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "No Observation",
+              "label": "No Observation"
+            },
+            {
+              "value": "Open/uncovered",
+              "label": "Open/uncovered"
+            },
+            {
+              "value": "Closed/covered",
+              "label": "Closed/covered"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Hole Open Closed"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Pipes_In_Hole": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Pipes_In_Hole",
+        "id": "Pipes_In_Hole",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Metal Pipes",
+              "label": "Metal Pipes"
+            },
+            {
+              "value": "Poly Pipes",
+              "label": "Poly Pipes"
+            },
+            {
+              "value": "Fibreglass Pipes",
+              "label": "Fibreglass Pipes"
+            },
+            {
+              "value": "No pipes/clear",
+              "label": "No pipes/clear"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Pipes In Hole"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Hole_Angle": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Hole_Angle",
+        "id": "Hole_Angle",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Vertical",
+              "label": "Vertical"
+            },
+            {
+              "value": "Angled",
+              "label": "Angled"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Hole Angle"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Outflow_Present": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Outflow_Present",
+        "id": "Outflow_Present",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "No Observation",
+              "label": "No Observation"
+            },
+            {
+              "value": "Yes",
+              "label": "Yes"
+            },
+            {
+              "value": "No",
+              "label": "No"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Outflow Present"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Sampling_Issues": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Sampling_Issues",
+        "id": "Sampling_Issues",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Sampled from outflow of tank",
+              "label": "Sampled from outflow of tank"
+            },
+            {
+              "value": "Bailed from a flowing windmill (access issues, no wind etc.)",
+              "label": "Bailed from a flowing windmill (access issues, no wind etc.)"
+            },
+            {
+              "value": "Pumped",
+              "label": "Pumped"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Sampling Issues"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Temperature": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Temperature",
+        "id": "Temperature",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Temperature"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Conductivity": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Conductivity",
+        "id": "Conductivity",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Conductivity"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Preferred_pH": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Preferred_pH",
+        "id": "Preferred_pH",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Preferred pH"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Preferred_pH_Time": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Preferred_pH_Time",
+        "id": "Preferred_pH_Time",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Preferred pH Time"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Preferred_Eh": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Preferred_Eh",
+        "id": "Preferred_Eh",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Preferred Eh"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Preferred_Eh_Time": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Preferred_Eh_Time",
+        "id": "Preferred_Eh_Time",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Preferred Eh Time"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Existing_Photologs": {
+      "component-namespace": "Unknown",
+      "component-name": "Unknown",
+      "type-returned": "unknown::unknown",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Existing_Photologs",
+        "id": "Existing_Photologs",
+        "helperText": "No database entry",
+        "variant": "outlined"
+      },
+      "validationSchema": [],
+      "initialValue": null
+    },
+    "Timestamp": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Timestamp",
+        "id": "Timestamp",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Rock Sample Timestamp"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Vegetation_Sample_author": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Vegetation_Sample_author",
+        "id": "Vegetation_Sample_author",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Vegetation Sample author"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Vegetation_Species": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Vegetation_Species",
+        "id": "Vegetation_Species",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Vegetation Species"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Vegetation_Height": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Vegetation_Height",
+        "id": "Vegetation_Height",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Vegetation Height"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Vegetation_Width": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Vegetation_Width",
+        "id": "Vegetation_Width",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Vegetation Width"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Landform": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Landform",
+        "id": "Landform",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Alluvial Landforms",
+              "label": "Alluvial Landforms"
+            },
+            {
+              "value": "Dune Field",
+              "label": "Dune Field"
+            },
+            {
+              "value": "Fan",
+              "label": "Fan"
+            },
+            {
+              "value": "Plain",
+              "label": "Plain"
+            },
+            {
+              "value": "Glacial Landforms",
+              "label": "Glacial Landforms"
+            },
+            {
+              "value": "Delta",
+              "label": "Delta"
+            },
+            {
+              "value": "Coastal Lands",
+              "label": "Coastal Lands"
+            },
+            {
+              "value": "Erosional Landforms",
+              "label": "Erosional Landforms"
+            },
+            {
+              "value": "Karst",
+              "label": "Karst"
+            },
+            {
+              "value": "Plateau",
+              "label": "Plateau"
+            },
+            {
+              "value": "Volcanic Landform",
+              "label": "Volcanic Landform"
+            },
+            {
+              "value": "Made Land",
+              "label": "Made Land"
+            },
+            {
+              "value": "Meteor Crater",
+              "label": "Meteor Crater"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Landform"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Soil_Sample_author": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Soil_Sample_author",
+        "id": "Soil_Sample_author",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Soil Sample author"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Depth": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Depth",
+        "id": "Depth",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Depth"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Colour": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Colour",
+        "id": "Colour",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Colour"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Vegetation": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Vegetation",
+        "id": "Vegetation",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Vegetation"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Lag": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Lag",
+        "id": "Lag",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "No Observation",
+              "label": "No Observation"
+            },
+            {
+              "value": "Yes",
+              "label": "Yes"
+            },
+            {
+              "value": "No",
+              "label": "No"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Lag"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Geology": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Geology",
+        "id": "Geology",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Sedimentary",
+              "label": "Sedimentary"
+            },
+            {
+              "value": "Metamorphic",
+              "label": "Metamorphic"
+            },
+            {
+              "value": "Igneous",
+              "label": "Igneous"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Geology"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Drainage": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Drainage",
+        "id": "Drainage",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "No Observation",
+              "label": "No Observation"
+            },
+            {
+              "value": "Yes",
+              "label": "Yes"
+            },
+            {
+              "value": "No",
+              "label": "No"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Drainage"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Contamination": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Contamination",
+        "id": "Contamination",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "No Observation",
+              "label": "No Observation"
+            },
+            {
+              "value": "Yes",
+              "label": "Yes"
+            },
+            {
+              "value": "No",
+              "label": "No"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Contamination"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Regolith_Type": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Regolith_Type",
+        "id": "Regolith_Type",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Transported Regolith",
+              "label": "Transported Regolith"
+            },
+            {
+              "value": "In-Situ Regolith",
+              "label": "In-Situ Regolith"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Regolith Type"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Soil_Crust_Sample_author": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Soil_Crust_Sample_author",
+        "id": "Soil_Crust_Sample_author",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Soil Crust Sample author"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Rock_Sample_author": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Rock_Sample_author",
+        "id": "Rock_Sample_author",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Rock Sample author"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Location_Number": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Location_Number",
+        "id": "Location_Number",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Location Number"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Core_ID": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Core_ID",
+        "id": "Core_ID",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Core ID"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Bedding_Strike": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Bedding_Strike",
+        "id": "Bedding_Strike",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Bedding Strike"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Cleavage_Strike": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Cleavage_Strike",
+        "id": "Cleavage_Strike",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Cleavage Strike"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Foliation_Strike": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Foliation_Strike",
+        "id": "Foliation_Strike",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Foliation Strike"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Veins_1_Strike": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Veins_1_Strike",
+        "id": "Veins_1_Strike",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Veins 1 Strike"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Veins_2_Strike": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Veins_2_Strike",
+        "id": "Veins_2_Strike",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Veins 2 Strike"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Bedding_Dip": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Bedding_Dip",
+        "id": "Bedding_Dip",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Bedding Dip"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Cleavage_Dip": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Cleavage_Dip",
+        "id": "Cleavage_Dip",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Cleavage Dip"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Foliation_Dip": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Foliation_Dip",
+        "id": "Foliation_Dip",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Foliation Dip"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Veins_1_Dip": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Veins_1_Dip",
+        "id": "Veins_1_Dip",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Veins 1 Dip"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Veins_2_Dip": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Veins_2_Dip",
+        "id": "Veins_2_Dip",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Veins 2 Dip"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Other_Structural_Measurements": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Other_Structural_Measurements",
+        "id": "Other_Structural_Measurements",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Other Structural Measurements"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Fold_Axis_Plunge": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Fold_Axis_Plunge",
+        "id": "Fold_Axis_Plunge",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Fold Axis Plunge"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Mineral_Lineation_Plunge": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Mineral_Lineation_Plunge",
+        "id": "Mineral_Lineation_Plunge",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Mineral Lineation Plunge"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Stretching_Lineation_Plunge": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Stretching_Lineation_Plunge",
+        "id": "Stretching_Lineation_Plunge",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Stretching Lineation Plunge"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Fold_Axis_Azimuth": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Fold_Axis_Azimuth",
+        "id": "Fold_Axis_Azimuth",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Fold Axis Azimuth"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Mineral_Lineation_Azimuth": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Mineral_Lineation_Azimuth",
+        "id": "Mineral_Lineation_Azimuth",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Mineral Lineation Azimuth"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Stretching_Lineation_Azimuth": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Stretching_Lineation_Azimuth",
+        "id": "Stretching_Lineation_Azimuth",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Stretching Lineation Azimuth"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Other_Lineation": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Other_Lineation",
+        "id": "Other_Lineation",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Other Lineation"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Other_Lithological_Descriptors": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Other_Lithological_Descriptors",
+        "id": "Other_Lithological_Descriptors",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Other Lithological Descriptors"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Stratigraphic_Unit": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Stratigraphic_Unit",
+        "id": "Stratigraphic_Unit",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Stratigraphic Unit"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Large-Scale_Structure": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Large-Scale_Structure",
+        "id": "Large-Scale_Structure",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Large-Scale Structure"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Alteration": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Alteration",
+        "id": "Alteration",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Alteration"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Veining": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Veining",
+        "id": "Veining",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Veining"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Lithology": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Lithology",
+        "id": "Lithology",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Sedimentary",
+              "label": "Sedimentary"
+            },
+            {
+              "value": "Metamorphic",
+              "label": "Metamorphic"
+            },
+            {
+              "value": "Igneous",
+              "label": "Igneous"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Lithology"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Inclusion_Size": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Inclusion_Size",
+        "id": "Inclusion_Size",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Fine",
+              "label": "Fine"
+            },
+            {
+              "value": "Medium",
+              "label": "Medium"
+            },
+            {
+              "value": "Coarse",
+              "label": "Coarse"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Inclusion Size"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Grain_Size": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Grain_Size",
+        "id": "Grain_Size",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Fine",
+              "label": "Fine"
+            },
+            {
+              "value": "Medium",
+              "label": "Medium"
+            },
+            {
+              "value": "Coarse",
+              "label": "Coarse"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Grain Size"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Sorting": {
+      "component-namespace": "faims-custom",
+      "component-name": "Select",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Sorting",
+        "id": "Sorting",
+        "helperText": "",
+        "variant": "outlined",
+        "ElementProps": {
+          "options": [
+            {
+              "value": "Poor",
+              "label": "Poor"
+            },
+            {
+              "value": "Moderate",
+              "label": "Moderate"
+            },
+            {
+              "value": "Well Sorted",
+              "label": "Well Sorted"
+            },
+            {
+              "value": "Other",
+              "label": "Other"
+            }
+          ]
+        },
+        "InputLabelProps": {
+          "label": "Sorting"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "pH": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "pH",
+        "id": "pH",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "pH"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Time": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Time",
+        "id": "Time",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Time"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Preferred": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Preferred",
+        "id": "Preferred",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Preferred"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Eh": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Eh",
+        "id": "Eh",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Eh"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Photo_ID": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Photo_ID",
+        "id": "Photo_ID",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Photo ID"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Photolog_timestamp": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Photolog_timestamp",
+        "id": "Photolog_timestamp",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Photolog timestamp"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Photo_Note": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Photo_Note",
+        "id": "Photo_Note",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Photo Note"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Label": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Label",
+        "id": "Label",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Label"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    },
+    "Note": {
+      "component-namespace": "formik-material-ui",
+      "component-name": "TextField",
+      "type-returned": "faims-core::String",
+      "component-parameters": {
+        "fullWidth": true,
+        "name": "Note",
+        "id": "Note",
+        "helperText": "",
+        "variant": "outlined",
+        "InputProps": {
+          "type": "text"
+        },
+        "InputLabelProps": {
+          "label": "Note"
+        }
+      },
+      "validationSchema": [
+        [
+          "yup.string"
+        ]
+      ],
+      "initialValue": ""
+    }
+  },
+  "fviews": {
+    "Basic Info": {
+      "fields": [
+        "Sample_Prefix_1",
+        "Sample_Prefix_2",
+        "Sample_ID",
+        "Timestamp_Field",
+        "Rock_Sample_author",
+        "Station_Deposit",
+        "Project",
+        "Area",
+        "Location_Number",
+        "Core_ID",
+        "Latitude",
+        "Longitude",
+        "Northing",
+        "Easting",
+        "Accuracy",
+        "Elevation_Metres_above_Sea_Level",
+        "Observation_Type",
+        "SRID"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Codes": {
+      "fields": [
+        "Estimated_Angle",
+        "Hole_Type",
+        "Hole_Lining",
+        "Hole_Open_Closed",
+        "Pipes_In_Hole",
+        "Hole_Angle",
+        "Outflow_Present",
+        "Sampling_Issues"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "pH/Eh": {
+      "fields": [
+        "Temperature",
+        "Conductivity",
+        "Preferred_pH",
+        "Preferred_pH_Time",
+        "Preferred_Eh",
+        "Preferred_Eh_Time"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Photolog": {
+      "fields": [
+        "Photo_ID",
+        "Photolog_timestamp",
+        "Photo_Note"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Map": {
+      "fields": [],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Hidden": {
+      "fields": [
+        "Preferred_pH_Time",
+        "Preferred_Eh_Time"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Vars": {
+      "fields": [
+        "Timestamp"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Measurements": {
+      "fields": [
+        "Bedding_Strike",
+        "Cleavage_Strike",
+        "Foliation_Strike",
+        "Veins_1_Strike",
+        "Veins_2_Strike",
+        "Bedding_Dip",
+        "Cleavage_Dip",
+        "Foliation_Dip",
+        "Veins_1_Dip",
+        "Veins_2_Dip",
+        "Other_Structural_Measurements",
+        "Fold_Axis_Plunge",
+        "Mineral_Lineation_Plunge",
+        "Stretching_Lineation_Plunge",
+        "Fold_Axis_Azimuth",
+        "Mineral_Lineation_Azimuth",
+        "Stretching_Lineation_Azimuth",
+        "Other_Lineation"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Lithological Info": {
+      "fields": [
+        "Other_Lithological_Descriptors",
+        "Stratigraphic_Unit",
+        "Large-Scale_Structure",
+        "Alteration",
+        "Veining",
+        "Notes",
+        "Lithology",
+        "Inclusion_Size",
+        "Grain_Size",
+        "Sorting"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "pH": {
+      "fields": [
+        "pH",
+        "Time",
+        "Preferred"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Eh": {
+      "fields": [
+        "Eh",
+        "Time",
+        "Preferred"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    },
+    "Shape Note": {
+      "fields": [
+        "Label",
+        "Note"
+      ],
+      "next-view": "BAD",
+      "next-view-label": "BAD"
+    }
+  },
+  "start_view": "Basic Info"
+}
